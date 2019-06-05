@@ -3,6 +3,6 @@ import ReactDOM from 'react-dom'
 
 import './index.css'
 import App from './App'
-import DropzoneDialogExample from "./DropzoneDialogExample";
+import DropzoneAreaExample from "./DropzoneDialogExample";
 
-ReactDOM.render(<DropzoneDialogExample />, document.getElementById('root'))
+ReactDOM.render(<DropzoneAreaExample />, document.getElementById('root'))

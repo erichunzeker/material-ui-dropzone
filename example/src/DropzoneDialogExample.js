@@ -45,6 +45,7 @@ export default class DropzoneDialogExample extends Component {
                     maxFileSize={5000000}
                     onClose={this.handleClose.bind(this)}
                     showFileNamesInPreview={true}
+                    dialogTitle={"Upload files here ↓"}
                 />
             </div>
         );

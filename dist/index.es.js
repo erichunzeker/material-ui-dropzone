@@ -1761,7 +1761,6 @@ var DropzoneArea = function (_Component) {
             var classes = this.props.classes;
 
             var showPreviews = this.props.showPreviews && this.state.fileObjects.length > 0;
-            console.log(showPreviews);
             var showPreviewsInDropzone = this.props.showPreviewsInDropzone && this.state.fileObjects.length > 0;
             return React.createElement(
                 Fragment,
@@ -1838,7 +1837,7 @@ DropzoneArea.defaultProps = {
     acceptedFiles: ['image/*', 'video/*', 'application/*'],
     filesLimit: 3,
     maxFileSize: 3000000,
-    dropzoneText: 'Draaaag and drop an image file here or click',
+    dropzoneText: 'Drag and drop an image file here or click',
     showPreviews: false, // By default previews show up under in the dialog and inside in the standalone
     showPreviewsInDropzone: true,
     showFileNamesInPreview: false,
